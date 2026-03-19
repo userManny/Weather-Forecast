@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast App</title>
+
+  
+  <link href="output.css" rel="stylesheet">   <!-- Output file for Tailwind css-->
+</head>
+
+<body class="bg-[#1e1b4b] text-white min-h-screen p-4">
+
+
+  <div class="text-center mb-6">
+    <h1 class="text-3xl font-bold text-purple-300">Weather Forecast App</h1>
+    <p class="text-gray-300">Search weather by city or your location</p>
+  </div>
+
+  
+  <div class="max-w-md mx-auto">
+    <input id="cityInput" type="text"
+      placeholder="Enter city name"
+      class="w-full p-2 rounded text-black">
+
+    <button id="searchBtn"
+      class="w-full mt-2 bg-indigo-500 p-2 rounded">
+      Search
+    </button>
+
+    <button id="locationBtn"
+      class="w-full mt-2 bg-green-500 p-2 rounded">
+      Use My Location
+    </button>
+
+  
+    <select id="recentCities"
+      class="w-full mt-2 p-2 text-black hidden">
+    </select>
+  </div>
+
+  
+  <p id="errorMsg" class="text-red-400 text-center mt-3"></p>
+
+  
+  <div class="text-center mt-4">
+    <button id="toggleUnit" class="bg-purple-500 px-4 py-1 rounded">
+      Toggle °C / °F
+    </button>
+  </div>
+
+  <!-- Current Weather -->
+  <div id="weatherBox"
+    class="max-w-md mx-auto mt-6 p-4 bg-[#312e81] rounded hidden">
+    <h2 id="cityName" class="text-xl font-bold"></h2>
+    <p id="temp"></p>
+    <p id="humidity"></p>
+    <p id="wind"></p>
+    <p id="condition"></p>
+  </div>
+
+  <!-- Forecast -->
+  <div id="forecast"
+    class="grid grid-cols-2 md:grid-cols-5 gap-3 mt-6"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
