@@ -1,6 +1,6 @@
 const API_KEY = "6d9509eb4ed1b86239c12b81cb347afc";  // OpenWeatherMap API
 
-let unit = "metric";  //  temperature in celcius 
+let unit = "metric";  //  temperature in celcius (°C)
 
 // default background
 document.body.className = "bg-[#1e1b4b] text-white min-h-screen p-4";
