@@ -177,7 +177,7 @@ function loadDropdown() {
     dropdown.innerHTML += `<option value="${city}">${city}</option>`;
   });
 
-  dropdown.addEventListener("change", function () {  
+   dropdown.addEventListener("change", function () {  
     if (this.value !== "Select recent city") {   // for event listeners this refers to element(DOM object) it is attached.
       getWeather(this.value);
     }
