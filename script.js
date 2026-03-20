@@ -8,7 +8,7 @@ document.body.className = "bg-[#1e1b4b] text-white min-h-screen p-4";
 
 // Elements
 const searchBtn = document.getElementById("searchBtn");
-const locationBtn = document.getElementById("locationBtn");
+const locationBtn = document.getElementById("locationBtn"); 
 const toggleBtn = document.getElementById("toggleUnit");
 
 // Events and EventListener
