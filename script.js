@@ -170,7 +170,7 @@ function loadDropdown() {
 
   if (cities.length === 0) return;
 
-  dropdown.classList.remove("hidden");
+  dropdown.classList.remove("hidden"); 
   dropdown.innerHTML = "<option>Select recent city</option>";
 
   cities.forEach(city => {
