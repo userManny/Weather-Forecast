@@ -15,3 +15,6 @@ How to run:
 
 API used:
 OpenWeatherMap API https://openweathermap.org/api
+
+Live Demo: 
+https://userManny.github.io/Weather-Forecast/
