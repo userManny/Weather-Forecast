@@ -168,7 +168,7 @@ function loadDropdown() {
   let dropdown = document.getElementById("recentCities");
   let cities = JSON.parse(localStorage.getItem("cities")) || [];
 
-  if (cities.length === 0) return;
+  if (cities.length === 0) return; 
 
   dropdown.classList.remove("hidden"); 
   dropdown.innerHTML = "<option>Select recent city</option>";
