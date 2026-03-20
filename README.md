@@ -1,4 +1,4 @@
-Weather Forecast Application
+Weather Forecast Application:
 
 This is a simple weather application made using HTML, Tailwind CSS and JavaScript.
 
