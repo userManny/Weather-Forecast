@@ -1,6 +1,6 @@
-Weather Forecast App
+Weather Forecast Application
 
-This is a simple weather app made using HTML, Tailwind CSS and JavaScript.
+This is a simple weather application made using HTML, Tailwind CSS and JavaScript.
 
 Features:
 - Search weather by city
