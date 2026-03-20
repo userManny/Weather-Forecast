@@ -14,4 +14,4 @@ How to run:
 2. Enter city name or use location button
 
 API used:
-OpenWeatherMap API
+OpenWeatherMap API https://openweathermap.org/api
